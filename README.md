@@ -3,7 +3,7 @@ PHP IRC Client
 
 # Example
 ```
-$irc = new PIRC;
+$irc = new PIRCBot;
 set_error_handler(array($irc, 'errorHandler'));
 
 $irc->setServer('holywar.hanirc.org');
