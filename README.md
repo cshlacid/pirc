@@ -1,0 +1,2 @@
+# pirc
+PHP IRC Client
