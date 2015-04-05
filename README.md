@@ -2,7 +2,7 @@
 PHP IRC Client
 
 # Example
-
+```
 $irc = new PIRC;
 set_error_handler(array($irc, 'errorHandler'));
 
@@ -15,3 +15,4 @@ $irc->setNick('peris-bot');
 $irc->setUserName('ircbot');
 
 $irc->run();
+```
